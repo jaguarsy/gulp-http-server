@@ -42,4 +42,4 @@ module.exports = function() {
     return function (path) {
         getServer(defaultPort, path);
     };
-};
+}();
